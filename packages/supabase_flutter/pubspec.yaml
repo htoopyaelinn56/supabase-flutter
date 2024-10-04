@@ -17,7 +17,11 @@ dependencies:
     sdk: flutter
   http: '>=0.13.4 <2.0.0'
   meta: ^1.7.0
-  supabase: 2.4.0
+  supabase:
+    git: 
+      url: https://github.com/htoopyaelinn56/supabase-flutter
+      path: packages/supabase
+      ref: main
   url_launcher: ^6.1.2
   path_provider: ^2.0.0
   shared_preferences: ^2.0.0
